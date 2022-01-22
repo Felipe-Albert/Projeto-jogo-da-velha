@@ -76,6 +76,10 @@ function resetScore() {
     score[1].innerHTML = "0";
     score[2].innerHTML = "0";
 
+    scoreO = 0;
+    scoreX = 0;
+    scoreE = 0;
+
 }
 
 button.addEventListener ("click", resetScore);
